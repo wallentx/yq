@@ -6,16 +6,19 @@
 version: 2
 updates:
   - package-ecosystem: docker
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       day: thursday
       interval: weekly
   - package-ecosystem: github-actions
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       day: thursday
       interval: weekly
   - package-ecosystem: gomod
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       day: thursday
